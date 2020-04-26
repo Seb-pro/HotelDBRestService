@@ -70,10 +70,10 @@ namespace DBConsoleApp
                     //    Console.WriteLine(succes);
                     //}
 
-                    //Console.WriteLine("\nUpdate et facilitet\n");
+                    //Console.WriteLine("\nUpdater et facilitet\n");
 
                     //Facility updateFacility = new Facility { FacilityName = "Updatede" };
-                    //response = client.PutAsJsonAsync("api/facilities/1004", updateFacility).Result;
+                    //response = client.PutAsJsonAsync("api/facilities/5", updateFacility).Result;
 
                     //if (response.IsSuccessStatusCode)
                     //{
@@ -85,7 +85,7 @@ namespace DBConsoleApp
 
                     //Console.WriteLine("\nSlette et facilitet\n");
 
-                    //response = client.DeleteAsync("api/facilities/2009").Result;
+                    //response = client.DeleteAsync("api/facilities/6").Result;
 
                     //if (response.IsSuccessStatusCode)
                     //{
@@ -151,8 +151,8 @@ namespace DBConsoleApp
 
                     //Console.WriteLine("\nUpdater et Hotel\n");
 
-                    //Hotel updateHotel = new Hotel { HotelName = "Hotel Updatede", HotelAddress = "Updatede Road" };
-                    //response = client.PutAsJsonAsync("api/hotels/1003", updateHotel).Result;
+                    //Hotel updateHotel = new Hotel { HotelName = "Hotel Updatede", HotelAddress = "Updatede Road 1" };
+                    //response = client.PutAsJsonAsync("api/hotels/8", updateHotel).Result;
 
                     //if (response.IsSuccessStatusCode)
                     //{
@@ -164,7 +164,7 @@ namespace DBConsoleApp
 
                     //Console.WriteLine("\nSlette et Hotel\n");
 
-                    //response = client.DeleteAsync("api/hotels/1007").Result;
+                    //response = client.DeleteAsync("api/hotels/9").Result;
 
                     //if (response.IsSuccessStatusCode)
                     //{
